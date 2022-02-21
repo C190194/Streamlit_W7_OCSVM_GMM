@@ -37,7 +37,7 @@ elif select_slide == "Gaussian Mixture Model":
         with unknown parameters.")
     st.write("This model intends to group data points into clusters that \
         indicate machines' section and attribute information.")
-    st.write("Take the negative value of the maximum log-likihood as the \
+    st.write("Take the negative value of the maximum log-likelihood as the \
         anomaly score for each data point. Then, take the mean value as the \
         anomaly score for each audio file.")
 
