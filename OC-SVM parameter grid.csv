@@ -1,0 +1,3 @@
+Parameter Name,Values,Description
+kernel,“rbf”,The kernel type for the algorithm. RBF is a non-linear kernel.
+nu,"range(1e-4, 1e-5, 1e-6)",The proportion of outliers in the training dataset.

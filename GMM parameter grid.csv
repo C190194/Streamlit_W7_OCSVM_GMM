@@ -1,0 +1,6 @@
+Parameter Name,Values,Description
+n_components,"[6, 12, 20, 30, 40, 80]",The number of mixture components.
+covariance_type,"""diag""","Must be chosen from {‘full’, ‘tied’, ‘diag’, ‘spherical’}. 
+‘diag’: each component has its own diagonal covariance matrix."
+max_iter,150,The number of expectation-maximization iterations to perform.
+init_params,'kmeans',"The method used to initialize the weights, the means and the precisions."
