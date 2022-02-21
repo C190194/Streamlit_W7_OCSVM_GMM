@@ -47,7 +47,7 @@ elif select_slide == "Gaussian Mixture Model":
     st.table(gmm_parameter_grid_df)
     
 elif select_slide == "Results":
-    st.subheader("Best Results for OC-SVM and GMM") 
+    st.subheader("Best Results for OC-SVM and GMM using Fan's Development Dataset") 
     result_df = pd.read_csv('Results.csv')
     col_ref = {'Trial 1:': 'background-color: #ffec8c', 
             'OC-SVM': 'background-color: #ffec8c', 
